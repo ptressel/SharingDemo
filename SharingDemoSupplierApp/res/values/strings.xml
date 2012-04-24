@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, SharingDemoSupplierAppActivity!</string>
+    <string name="app_name">SharingDemoSupplierApp</string>
+    <string name="choose_color_name">SharingDemoChooseColor</string>
+    <string name="edit_text_name">SharingDemoEditText</string>
+    <string name="edit_text">Enter some text</string>
+    <string name="choose_color">Choose a color</string>
+    <string name="peach">Peach</string>
+    <string name="spring">Spring Green</string>
+    <string name="cream">Cream</string>
+    <string name="done">Done</string>
+</resources>

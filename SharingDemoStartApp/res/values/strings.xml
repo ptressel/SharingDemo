@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">SharingDemoStartApp</string>
+    <string name="instructions">Select which action to perform</string>
+    <string name="choose_color">Pick a color</string>
+    <string name="write_text">Write some text</string>
+    <string name="button_label">Let the other app do it</string>
+    <string name="empty">Nothing here yet&#8230;</string>
+    <string name="no_sd_card">Sorry, no SD card&#8230;</string>
+    <string name="no_app">No appropriate app found&#8230;</string>
+    <string name="no_code">No such code&#8230;</string>
+    <string name="canceled">Canceled&#8230;</string>
+</resources>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/choose_color"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <RadioGroup
+        android:id="@+id/colorGroup"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <RadioButton
+            style="@style/verticalRadio"
+            android:id="@+id/peachButton"
+            android:tag="peach"
+            android:checked="true"
+            android:text="@string/peach"
+            android:background="@color/peach" />
+
+        <RadioButton
+            style="@style/verticalRadio"
+            android:id="@+id/springButton"
+            android:tag="spring"
+            android:text="@string/spring"
+            android:background="@color/spring" />
+
+        <RadioButton
+            style="@style/verticalRadio"
+            android:id="@+id/creamButton"
+            android:tag="cream"
+            android:text="@string/cream"
+            android:background="@color/cream" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/done"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:onClick="doneClick" />
+
+</LinearLayout>
